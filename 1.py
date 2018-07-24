@@ -1,0 +1,7 @@
+s = input()
+print(s)
+t = str.maketrans('koe', 'mqg')
+print(t)
+ss = str.translate(s, t)
+print(ss)
+print(s.translate(t))
